@@ -1,3 +1,32 @@
+/*Typography Styles*/
+h1, h2, h3, h4, h5, h6, dt, a, button {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+p, li, figcaption, dd{
+    font-family: 'Crimson Pro', serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*Styling the body*/
+body {
+    margin: 0%;
+}
+
+/*Styling the header*/
+header {
+    display: flex;
+}
+
+.header-navigation {
+    display: flex;
+}
+
+
 main {
     /*Places navigation and content area in a flexbox*/
     display: flex;
