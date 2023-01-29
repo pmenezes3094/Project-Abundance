@@ -26,15 +26,36 @@ header {
     list-style: none;
 }
 
+nav {
+    border-radius: 0px 5px 5px 0px;
+}
+
 main {
     /*Places navigation and content area in a flexbox*/
     display: flex;
+}
+
+.describing-item-visualisation {
+    border-radius: 5px; 
 }
 
 .describing-item-details {
     /*Places cards with details in a flexbox*/
     display: flex;
 }
+
+.describing-item-card{
+    border-radius: 5px;
+}
+
+.color-card {
+    border-radius: 5px;
+}
+
+.describing-item-guidelines {
+    border-radius: 5px; 
+}
+
 
 
 footer ul {
@@ -68,7 +89,7 @@ footer {
 
 .color-card {
     background-color: #cccccc;
-    margin: 2%;  
+    margin: 2%; 
 }
 
 .category-card {
@@ -78,7 +99,7 @@ footer {
 
 .describing-item-guidelines {
     background-color: #eeeeee;
-    margin: 2%; 
+    margin: 2%;
 }
 
 .demo-website {
