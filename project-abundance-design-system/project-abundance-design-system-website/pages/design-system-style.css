@@ -42,3 +42,50 @@ footer ul {
     padding: 0%;
     margin: 0%;
 }
+
+/*Testing snippets*/
+
+header {
+    background-color: #cccccc;
+    margin: 2%;  
+}
+
+nav {
+    background-color: #cccccc;
+    margin: 2%;
+}
+
+.describing-item-card{
+    background-color: #cccccc;
+    margin: 2%;
+}
+
+footer {
+    background-color: #cccccc;
+    margin: 2%;
+}
+
+.color-card {
+    background-color: #cccccc;
+    margin: 2%;  
+}
+
+.category-card {
+    background-color: #eeeeee;
+    margin: 2%;  
+}
+
+.describing-item-guidelines {
+    background-color: #eeeeee;
+    margin: 2%; 
+}
+
+.demo-website {
+    background-color: #eeeeee;
+    margin: 2%;
+}
+
+.describing-item-visualisation {
+    background-color: #eeeeee;
+    margin: 2%; 
+}
