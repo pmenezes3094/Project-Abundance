@@ -1,11 +1,11 @@
 /*Typography Styles*/
-h1, h2, h3, h4, h5, h6, dt, a, button {
+h1, h2, h3, h4, h5, h6, dt, a, button, .button-copy, .list-group-heading{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
     padding: 0%;
 }
 
-p, li, figcaption, dd{
+p, li, figcaption, dd, .body-copy-1, .body-copy-2, .link-copy, .caption-copy, .list-group-item{
     font-family: 'Crimson Pro', serif;
     margin: 0%;
     padding: 0%;
