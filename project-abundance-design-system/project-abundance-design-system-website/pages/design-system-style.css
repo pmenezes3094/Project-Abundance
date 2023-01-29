@@ -86,6 +86,7 @@ footer {
 }
 
 .describing-item-visualisation {
-    background-color: #eeeeee;
-    margin: 2%; 
+    background-color: #cccccc;
+    margin: 10px;
+    padding:10px;
 }
