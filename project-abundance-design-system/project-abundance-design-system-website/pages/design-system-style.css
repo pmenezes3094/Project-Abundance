@@ -11,7 +11,6 @@ p, li, figcaption, dd, .body-copy-1, .body-copy-2, .link-copy, .caption-copy, .l
     padding: 0%;
 }
 
-
 /*Styling the body*/
 body {
     margin: 0%;
@@ -37,4 +36,7 @@ main {
     display: flex;
 }
 
+footer ul {
+    list-style: none;
+}
 
