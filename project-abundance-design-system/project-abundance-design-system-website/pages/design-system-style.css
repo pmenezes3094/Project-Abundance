@@ -1,3 +1,7 @@
 main {
     display: flex;
 }
+
+.describing-item-details {
+    display: flex;
+}
