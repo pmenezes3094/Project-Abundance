@@ -19,15 +19,10 @@ body {
 /*Styling the header*/
 header {
     display: flex;
-    background-color: #eeeeee;
 }
 
 .header-navigation {
     display: flex;
-}
-
-nav {
-    background-color: #cccccc;
 }
 
 main {
@@ -35,19 +30,11 @@ main {
     display: flex;
 }
 
-.describing-item-card{
-    background-color: #cccccc;
-    margin: 2%;
-}
-
 .describing-item-details {
     /*Places cards with details in a flexbox*/
     display: flex;
 }
 
-footer {
-    background-color: #eeeeee;
-}
 
 footer ul {
     list-style: none;
@@ -55,4 +42,3 @@ footer ul {
     padding: 0%;
     margin: 0%;
 }
-
