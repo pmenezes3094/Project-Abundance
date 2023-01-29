@@ -1,7 +1,11 @@
 main {
+    /*Places navigation and content area in a flexbox*/
     display: flex;
 }
 
 .describing-item-details {
+    /*Places cards with details in a flexbox*/
     display: flex;
 }
+
+
