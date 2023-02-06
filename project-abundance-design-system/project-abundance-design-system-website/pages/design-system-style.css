@@ -153,6 +153,9 @@ main {
 
 .describing-item-visualisation {
     border-radius: 5px; 
+    background-color: var(--colortertiary);
+    padding: 2%;
+    margin: 2%;
 }
 
 .category-card {
@@ -215,10 +218,4 @@ footer ul {
 .describing-item-guidelines {
     background-color: #eeeeee;
     margin: 2%;
-}
-
-.describing-item-visualisation {
-    background-color: #cccccc;
-    margin: 10px;
-    padding:10px;
 }
