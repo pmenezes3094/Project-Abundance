@@ -20,6 +20,9 @@ p, li, figcaption, dd, .body-copy-1, .body-copy-2, .link-copy, .caption-copy, .l
     --colormediumgrey:#444444;
     --colorlightgrey:#666666;
     --colorlightestgrey:#cccccc;
+    --colorbackground:#F7F1FF;
+    --colorlight:#ffffff;
+
 }
 
 /*Styling the body*/
