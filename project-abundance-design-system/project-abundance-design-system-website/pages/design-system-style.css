@@ -136,6 +136,7 @@ nav {
 
 article {
     padding-right: 3.73%;
+    padding-right: 2%;
 }
 
 main {
@@ -147,6 +148,9 @@ main {
     border-radius: 5px; 
 }
 
+.category-card {
+    border-radius: 5px;
+}
 .describing-item-details {
     /*Places cards with details in a flexbox*/
     display: flex;
