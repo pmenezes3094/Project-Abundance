@@ -90,6 +90,7 @@ figcaption, .body-copy-2, .caption-copy {
     --colorlightgrey:#666666;
     --colorlightestgrey:#cccccc;
     --colorbackground:#F7F1FF;
+    --colorcards: #F9F9F9;
     --colorlight:#ffffff;
 }
 
@@ -150,6 +151,7 @@ main {
 
 .category-card {
     border-radius: 5px;
+    background-color: var(--colorcards);
 }
 .describing-item-details {
     /*Places cards with details in a flexbox*/
@@ -164,6 +166,7 @@ main {
 }
 
 .color-card {
+    padding: 2%;
     border-radius: 5px;
     width: 25%;
 }
@@ -194,11 +197,6 @@ footer ul {
 .describing-item-card{
     background-color: #cccccc;
     margin: 2%;
-}
-
-.color-card {
-    background-color: #cccccc;
-    margin: 2%; 
 }
 
 .category-card {
