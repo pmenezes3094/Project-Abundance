@@ -118,6 +118,10 @@ header {
     justify-content: space-between;
 }
 
+.responsive-show {
+    display: none;
+}
+
 .header-navigation {
     display: flex;
     list-style: none;
@@ -226,6 +230,9 @@ footer ul {
 
 @media only screen and (max-width: 768px) 
         {
+            .responsive-show {
+                display: contents;
+            }
             header {
                 justify-content: space-evenly;
             }
