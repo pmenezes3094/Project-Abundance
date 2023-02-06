@@ -11,6 +11,17 @@ p, li, figcaption, dd, .body-copy-1, .body-copy-2, .link-copy, .caption-copy, .l
     padding: 0%;
 }
 
+/*Colour theme*/
+:root {
+    --colorprimary:#805A93;
+    --colorsecondary:#FB5897;
+    --colortertiary:#F6C0B4;
+    --colordarkgrey:#222222;
+    --colormediumgrey:#444444;
+    --colorlightgrey:#666666;
+    --colorlightestgrey:#cccccc;
+}
+
 /*Styling the body*/
 body {
     margin: 0%;
