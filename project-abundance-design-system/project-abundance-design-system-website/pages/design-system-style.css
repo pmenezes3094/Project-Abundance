@@ -1,11 +1,11 @@
 /*Typography Styles*/
-h1, h2, h3, h4, h5, h6, dt, a, button, .button-copy, .list-group-heading{
+h1, h2, h3, h4, h5, h6, dt, a, button, .button-copy, .list-group-heading, .link-copy{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
     padding: 0%;
 }
 
-p, li, figcaption, dd, .body-copy-1, .body-copy-2, .link-copy, .caption-copy, .list-group-item{
+p, li, figcaption, dd, .body-copy-1, .body-copy-2, .caption-copy, .list-group-item{
     font-family: 'Crimson Pro', serif;
     margin: 0%;
     padding: 0%;
@@ -35,7 +35,7 @@ h4 {
     line-height: 32px;
 }
 
-h5 {
+h5, .list-group-heading, dt {
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -44,6 +44,24 @@ h5 {
 h6 {
     font-size: 16px;
     font-weight: 700;
+    line-height: 20px;
+}
+
+a, button, .button-copy, .link-copy,{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+p, li, dd, .body-copy-1, .list-group-item {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+figcaption, .body-copy-2, .caption-copy {
+    font-size: 16px;
+    font-weight: 400;
     line-height: 20px;
 }
 
