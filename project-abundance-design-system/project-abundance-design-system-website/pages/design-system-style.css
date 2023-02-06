@@ -173,8 +173,9 @@ main {
 
 .describing-item-card{
     background-color: var(--colorcards);
+    outline: 0.5px solid #d3d3d3;
     border-radius: 5px;
-    width: 25%;
+    width: 40%;
     padding: 2%;
     margin: 2%;
 }
