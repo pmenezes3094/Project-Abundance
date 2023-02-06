@@ -139,6 +139,8 @@ main {
 .describing-item-details {
     /*Places cards with details in a flexbox*/
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .describing-item-card{
