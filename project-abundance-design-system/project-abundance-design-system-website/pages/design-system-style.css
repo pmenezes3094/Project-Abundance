@@ -187,6 +187,9 @@ main {
 
 .describing-item-guidelines {
     border-radius: 5px; 
+    padding: 2%;
+    margin: 2%;
+    background-color: var(--colorcards);
 }
 
 .demo-website {
@@ -211,11 +214,4 @@ footer ul {
     justify-content: space-between;
     padding: 0%;
     margin: 0%;
-}
-
-/*Testing snippets*/
-
-.describing-item-guidelines {
-    background-color: #eeeeee;
-    margin: 2%;
 }
