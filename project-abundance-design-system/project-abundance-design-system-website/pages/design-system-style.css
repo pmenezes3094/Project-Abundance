@@ -2,13 +2,21 @@
 h1, h2, h3, h4, h5, h6, dt, a, button, .button-copy, .list-group-heading, .link-copy{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
-    padding: 0%;
+
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 1.46%;
+    padding-right: 1.46%;
 }
 
 p, li, figcaption, dd, .body-copy-1, .body-copy-2, .caption-copy, .list-group-item{
     font-family: 'Crimson Pro', serif;
     margin: 0%;
-    padding: 0%;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1.46%;
+    padding-right: 1.46%;
 }
 
 h1 {
@@ -51,6 +59,9 @@ a, button, .button-copy, .link-copy{
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 p, li, dd, .body-copy-1, .list-group-item {
