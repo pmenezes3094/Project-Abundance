@@ -11,6 +11,42 @@ p, li, figcaption, dd, .body-copy-1, .body-copy-2, .link-copy, .caption-copy, .l
     padding: 0%;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
 /*Colour theme*/
 :root {
     --colorprimary:#805A93;
