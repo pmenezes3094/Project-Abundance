@@ -156,10 +156,12 @@ main {
 
 .describing-item-card{
     border-radius: 5px;
+    width: 25%;
 }
 
 .color-card {
     border-radius: 5px;
+    width: 25%;
 }
 
 .describing-item-guidelines {
