@@ -186,6 +186,13 @@ main {
     border-radius: 5px; 
 }
 
+.demo-website {
+    background-color: var(--colorbackground);
+    padding: 2%;
+    margin: 2%;
+    border-radius: 5px;
+}
+
 footer {
     background-color: var(--colorprimary);
     color: var(--colorlight);
@@ -206,11 +213,6 @@ footer ul {
 /*Testing snippets*/
 
 .describing-item-guidelines {
-    background-color: #eeeeee;
-    margin: 2%;
-}
-
-.demo-website {
     background-color: #eeeeee;
     margin: 2%;
 }
