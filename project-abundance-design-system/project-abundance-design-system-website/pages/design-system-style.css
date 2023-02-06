@@ -162,9 +162,21 @@ main {
     border-radius: 5px; 
 }
 
+footer {
+    background-color: var(--colorprimary);
+    color: var(--colorlight);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 3.73%;
+    padding-right: 3.73%;
+
+
+}
+
 footer ul {
     list-style: none;
     display: flex;
+    justify-content: space-between;
     padding: 0%;
     margin: 0%;
 }
@@ -172,11 +184,6 @@ footer ul {
 /*Testing snippets*/
 
 .describing-item-card{
-    background-color: #cccccc;
-    margin: 2%;
-}
-
-footer {
     background-color: #cccccc;
     margin: 2%;
 }
