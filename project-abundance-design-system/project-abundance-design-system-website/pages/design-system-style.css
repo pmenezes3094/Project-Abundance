@@ -134,6 +134,10 @@ nav {
     padding-right: 2%;
 }
 
+article {
+    padding-right: 3.73%;
+}
+
 main {
     /*Places navigation and content area in a flexbox*/
     display: flex;
@@ -169,8 +173,6 @@ footer {
     padding-bottom: 50px;
     padding-left: 3.73%;
     padding-right: 3.73%;
-
-
 }
 
 footer ul {
