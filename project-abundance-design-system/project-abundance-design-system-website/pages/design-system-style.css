@@ -117,6 +117,7 @@ header {
 button {
     background-color: var(--colorsecondary);
     border: none;
+    border-radius: 50px;
     color: var(--colorlight);
 }
 
