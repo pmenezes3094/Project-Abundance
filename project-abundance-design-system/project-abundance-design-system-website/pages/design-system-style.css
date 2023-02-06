@@ -17,6 +17,13 @@ body {
 }
 
 /*Styling the header*/
+
+.logo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 3.73%;
+}
+
 header {
     display: flex;
 }
