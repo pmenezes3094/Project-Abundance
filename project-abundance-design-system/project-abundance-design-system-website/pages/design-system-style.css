@@ -26,11 +26,14 @@ body {
 
 header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-navigation {
     display: flex;
     list-style: none;
+    margin-right: 3.73%;
 }
 
 nav {
