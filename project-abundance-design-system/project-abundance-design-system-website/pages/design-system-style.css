@@ -137,7 +137,7 @@ nav {
     background-color: var(--colorbackground);
     padding-left: 3.73%;
     padding-right: 2%;
-    width: 20%;
+    min-width: 20%;
 }
 
 article {
