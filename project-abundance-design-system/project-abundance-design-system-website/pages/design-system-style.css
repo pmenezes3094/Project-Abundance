@@ -156,6 +156,8 @@ main {
 .category-card {
     border-radius: 5px;
     background-color: var(--colorcards);
+    margin: 2%;
+    padding: 2%;
 }
 .describing-item-details {
     /*Places cards with details in a flexbox*/
@@ -165,8 +167,11 @@ main {
 }
 
 .describing-item-card{
+    background-color: var(--colorcards);
     border-radius: 5px;
     width: 25%;
+    padding: 2%;
+    margin: 2%;
 }
 
 .color-card {
@@ -197,16 +202,6 @@ footer ul {
 }
 
 /*Testing snippets*/
-
-.describing-item-card{
-    background-color: #cccccc;
-    margin: 2%;
-}
-
-.category-card {
-    background-color: #eeeeee;
-    margin: 2%;  
-}
 
 .describing-item-guidelines {
     background-color: #eeeeee;
