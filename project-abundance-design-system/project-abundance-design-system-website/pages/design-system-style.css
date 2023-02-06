@@ -49,6 +49,12 @@ header {
     margin-right: 3.73%;
 }
 
+button {
+    background-color: var(--colorsecondary);
+    border: none;
+    color: var(--colorlight);
+}
+
 nav {
     border-radius: 0px 5px 5px 0px;
 }
