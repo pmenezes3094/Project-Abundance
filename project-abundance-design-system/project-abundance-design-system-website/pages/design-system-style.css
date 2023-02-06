@@ -96,6 +96,7 @@ figcaption, .body-copy-2, .caption-copy {
     --colorsuccess:#87d68d;
     --colorinfo: #6c91bf;
     --colorreminder:#fcca46;
+    --outline: 1px solid #dfdfdf;
 }
 
 /*Styling the body*/
@@ -159,6 +160,7 @@ main {
 }
 
 .category-card {
+    outline: var(--outline);
     border-radius: 5px;
     background-color: var(--colorcards);
     margin: 2%;
@@ -173,7 +175,7 @@ main {
 
 .describing-item-card{
     background-color: var(--colorcards);
-    outline: 0.5px solid #d3d3d3;
+    outline: var(--outline);
     border-radius: 5px;
     width: 40%;
     padding: 2%;
@@ -181,12 +183,14 @@ main {
 }
 
 .color-card {
+    outline: var(--outline);
     padding: 2%;
     border-radius: 5px;
     width: 25%;
 }
 
 .describing-item-guidelines {
+    outline: var(--outline);
     border-radius: 5px; 
     padding: 2%;
     margin: 2%;
