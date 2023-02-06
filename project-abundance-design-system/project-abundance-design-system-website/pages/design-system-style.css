@@ -76,6 +76,10 @@ figcaption, .body-copy-2, .caption-copy {
     line-height: 20px;
 }
 
+:any-link{
+    color: var(--colorsecondary);
+}
+
 /*Colour theme*/
 :root {
     --colorprimary:#805A93;
@@ -125,6 +129,9 @@ button {
 
 nav {
     border-radius: 0px 5px 5px 0px;
+    background-color: var(--colorbackground);
+    padding-left: 3.73%;
+    padding-right: 2%;
 }
 
 main {
@@ -155,8 +162,6 @@ main {
     border-radius: 5px; 
 }
 
-
-
 footer ul {
     list-style: none;
     display: flex;
@@ -165,11 +170,6 @@ footer ul {
 }
 
 /*Testing snippets*/
-
-nav {
-    background-color: #cccccc;
-    margin: 2%;
-}
 
 .describing-item-card{
     background-color: #cccccc;
