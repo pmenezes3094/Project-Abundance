@@ -169,14 +169,14 @@ main {
     /*Places cards with details in a flexbox*/
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 }
 
 .describing-item-card{
     background-color: var(--colorcards);
     outline: var(--outline);
     border-radius: 5px;
-    width: 40%;
+    min-width: 30%;
     padding: 2%;
     margin: 2%;
 }
@@ -185,7 +185,7 @@ main {
     outline: var(--outline);
     padding: 2%;
     border-radius: 5px;
-    width: 25%;
+    min-width: 30%;
 }
 
 .describing-item-guidelines {
