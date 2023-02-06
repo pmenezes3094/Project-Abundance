@@ -92,6 +92,10 @@ figcaption, .body-copy-2, .caption-copy {
     --colorbackground:#F7F1FF;
     --colorcards: #F9F9F9;
     --colorlight:#ffffff;
+    --colorfaliure:#ce7b91;
+    --colorsuccess:#87d68d;
+    --colorinfo: #6c91bf;
+    --colorreminder:#fcca46;
 }
 
 /*Styling the body*/
