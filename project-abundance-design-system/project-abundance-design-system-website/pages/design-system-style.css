@@ -284,13 +284,26 @@ input[type="radio"] {
     border-radius: 50%;
 }
 
-input[type="checkbox"] {
+input[type="checkbox"], select, textarea, input[type="text"] {
     border-radius: 5px;
 }
 
 input:checked {
   border: 6px solid var(--colorsecondary);
 }
+
+option:checked {
+    color: var(--colorlight);
+    background-color: var(--colorsecondary);
+}
+
+select, textarea, input[type="text"] {
+    width: 50%;
+    height: 30px;
+    border: var(--outline);
+}
+
+
 
 /*This code snippet downloaded from CodeHim, https://www.codehim.com*/
 
