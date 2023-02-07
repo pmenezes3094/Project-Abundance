@@ -297,10 +297,16 @@ option:checked {
     background-color: var(--colorsecondary);
 }
 
-select, textarea, input[type="text"] {
+select, input[type="text"] {
     width: 50%;
     height: 30px;
     border: var(--outline);
+}
+
+textarea {
+    width: 50%;
+    height: 80px;
+    border: var(--outline); 
 }
 
 
