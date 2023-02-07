@@ -271,6 +271,20 @@ footer ul {
 
 /*Breadcrumbs Styles*/
 
+/*Form styles*/
+input{
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: var(--outline);
+  margin-right: 5px;
+}
+
+input:checked {
+  border: 6px solid var(--colorsecondary);
+}
+
 /*This code snippet downloaded from CodeHim, https://www.codehim.com*/
 
 nav.clean {
