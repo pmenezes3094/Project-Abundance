@@ -1,5 +1,5 @@
 /*Typography Styles*/
-h1, h2, h3, h4, h5, h6, dt, a, button, .button-copy, .list-group-heading, .link-copy{
+span, h1, h2, h3, h4, h5, h6, dt, a, button, .button-copy, .list-group-heading, .link-copy{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
     font-weight: 500;
@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6, dt, a, button, .button-copy, .list-group-heading, .link-
     text-decoration: none;
 }
 
-p, li, figcaption, dd, .body-copy-1, .body-copy-2, .caption-copy, .list-group-item{
+p, li, figcaption, dd, .body-copy-1, pre , .body-copy-2, .caption-copy, .list-group-item{
     font-family: 'Crimson Pro', serif;
     margin: 0%;
 
@@ -62,7 +62,7 @@ a, button, .button-copy, .link-copy{
     padding-bottom: 10px;
 }
 
-p, li, dd, .body-copy-1, .list-group-item {
+p, li, dd, .body-copy-1, pre , .list-group-item {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -269,6 +269,20 @@ footer ul {
 	color: var(--colorlight);
 }
 
+/*Breadcrumbs Styles*/
+
+/*This code snippet downloaded from CodeHim, https://www.codehim.com*/
+
+nav.clean {
+    background: none;
+    box-shadow: none;
+  }
+  nav.clean .breadcrumb {
+    color: var(--colorsecondary);
+  }
+  nav.clean .breadcrumb:before {
+    color: var(--colorsecondary);
+  }
 /*Responsive*/
 
 @media only screen and (max-width: 768px) 

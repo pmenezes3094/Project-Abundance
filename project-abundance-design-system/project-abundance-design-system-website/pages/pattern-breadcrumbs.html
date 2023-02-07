@@ -68,7 +68,16 @@
             </div>
             <!--Live visualisation of breadcrumbs-->
             <div class="describing-item-visualisation">
-                <a href="">Breadcrumb item 1</a><p> / </p><a href="">Breadcrumb item 2</a><p> / </p><a href="">Breadcrumb item 3</a>
+                <!--This code snippet downloaded from CodeHim, https://www.codehim.com-->
+                <nav class="clean">
+                    <a href="#!" class="breadcrumb">First</a>
+                    <span>/</span>
+                    <a href="#!" class="breadcrumb">Second</a>
+                    <span>/</span>
+                    <a href="#!" class="breadcrumb">Third</a>
+                    <span>/</span>                        
+                    <a href="#!" class="breadcrumb">Fourth</a>
+                </nav>
             </div>
             <!--Design anatomy and code snippets for breadcrumbs-->
             <div class="describing-item-card-group">
@@ -76,13 +85,37 @@
                     <h3>Development</h3>
                     <div class="design-details">
                         <h4>HTML</h4>
-                        <p>HTML Code</p>
+                        <p>
+<pre>
+    <code>
+    &ltnav class="clean"&gt
+        &lta href="#!" class="breadcrumb">First&lt/a&gt
+        &ltspan&gt/&lt/span&gt
+        &lta href="#!" class="breadcrumb">Second&lt/a&gt
+        &ltspan&gt/&lt/span&gt
+        &lta href="#!" class="breadcrumb">Third&lt/a&gt
+        &ltspan&gt/&lt/span&gt                       
+        &lta href="#!" class="breadcrumb">Fourth&lt/a&gt
+    &lt/nav&gt
+    </code>
+</pre>
+                        </p>
 
                         <h4>CSS</h4>
-                        <p>CSS Code</p>
-                        
-                        <h4>JavaScript</h4>
-                        <p>JavaScript Code</p> 
+                        <p>
+                            <code>
+                                nav.clean {
+                                    background: none;
+                                    box-shadow: none;
+                                  }
+                                  nav.clean .breadcrumb {
+                                    color: var(--colorsecondary);
+                                  }
+                                  nav.clean .breadcrumb:before {
+                                    color: var(--colorsecondary);
+                                  }
+                            </code>
+                        </p>
                     </div>
                 </div>
             </div>
