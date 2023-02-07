@@ -70,7 +70,7 @@
             <div class="describing-item-card-group">
                 <div class="describing-item-visualisation">
                     <form>
-                        <label class="form-control">Label</label><br>
+                        <label >Label</label><br>
                         <input checked="checked" name="radiodemo" type="radio"/> Item 1 <br /> 
 	                    <input name="radiodemo" type="radio"/> Item 2 <br />  
                     </form>
@@ -81,40 +81,62 @@
                     <h3>Design</h3>
                     <div class="design-details">
                         <h4>Field Width*Height</h4>
-                        <p>XX</p>
+                        <p>16px*16px</p>
                         <h4>Field Color</h4>
-                        <p>XX</p>
+                        <p>#ffffff</p>
                         <h4>Field Shadow</h4>
-                        <p>XX</p>
+                        <p>None</p>
                         <h4>Field Border</h4>
-                        <p>XX</p>
+                        <p>#dfdfdf</p>
                         <h4>Field Corner</h4>
-                        <p>XX</p>
+                        <p>50% Circle</p>
                         <h4>Field outer padding</h4>
-                        <p>XX</p>
+                        <p>Default</p>
                         <h4>Label Typography Style</h4>
-                        <p>XX</p>
+                        <p>body copy</p>
                         <h4>Label Padding</h4>
-                        <p>XX</p>
+                        <p>Default</p>
                         <h4>Placeholder Typography Style</h4>
-                        <p>XX</p>
+                        <p>Body copy</p>
                         <h4>Content Typography Style</h4>
-                        <p>XX</p> 
+                        <p>Body Copy</p> 
                         <h4>Placeholder / Content Padding</h4>
-                        <p>XX</p>                   
+                        <p>Default</p>                   
                     </div>
                 </span>
                 <span class="describing-item-card">
                     <h3>Development</h3>
                     <div class="design-details">
                         <h4>HTML</h4>
-                        <p>HTML Code</p>
+                        <p>
+<pre>
+    <code>
+        &ltform&gt
+            &ltlabel&gtLabel&lt/label&gt&ltbr&gt
+            &ltinput checked="checked" name="radiodemo" type="radio"/&gt Item 1 &ltbr /&gt 
+            &ltinput name="radiodemo" type="radio"/&gt Item 2 &ltbr /&gt  
+        &lt/form&gt
+    </code>
+</pre>
+                        </p>
 
                         <h4>CSS</h4>
-                        <p>CSS Code</p>
-                        
-                        <h4>JavaScript</h4>
-                        <p>JavaScript Code</p> 
+                        <p>
+                            <code>
+                                input{
+                                    appearance: none;
+                                    width: 16px;
+                                    height: 16px;
+                                    border-radius: 50%;
+                                    border: var(--outline);
+                                    margin-right: 5px;
+                                  }
+                                  
+                                  input:checked {
+                                    border: 6px solid var(--colorsecondary);
+                                  }
+                            </code>
+                        </p>
                     </div>
                 </span>
             </div>
@@ -122,9 +144,7 @@
             <div class="describing-item-guidelines">
                 <h3>Important Guidelines</h3>
                 <ul>
-                    <li>Guideline 1</li>
-                    <li>Guideline 2</li>
-                    <li>Guideline 3</li>
+                    <li>Use radio buttons if there are less 5 selections with short names</li>
                 </ul>
             </div>
             <!--Link to demo website-->
