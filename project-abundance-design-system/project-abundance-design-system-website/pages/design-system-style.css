@@ -20,6 +20,14 @@ p, li, figcaption, dd, .body-copy-1, .body-copy-2, .caption-copy, .list-group-it
     padding-right: 1.46%;
 }
 
+h1, h2, h3 {
+    color: var(--colorprimary);
+}
+
+h4, h5, h6 {
+    color: var(--colordarkgrey);
+}
+
 h1 {
     font-size: 48px;
     line-height: 60px;
