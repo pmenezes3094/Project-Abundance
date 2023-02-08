@@ -185,7 +185,7 @@ main {
     background-color: var(--colorcards);
     outline: var(--outline);
     border-radius: 5px;
-    min-width: 30%;
+    width: 100%;
     padding: 2%;
     margin: 2%;
 }
@@ -210,6 +210,10 @@ main {
     padding: 2%;
     margin: 2%;
     border-radius: 5px;
+}
+
+ul {
+    list-style: none;  
 }
 
 footer {
