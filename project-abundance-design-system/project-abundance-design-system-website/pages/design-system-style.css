@@ -429,6 +429,10 @@ nav.clean {
   .container {
     padding: 2px 16px;
   }
+
+  .navigation {
+    background-color: var(--colorbackground);
+  }
 /*Responsive*/
 
 @media only screen and (max-width: 768px) 
