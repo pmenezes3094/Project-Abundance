@@ -448,7 +448,7 @@ nav.clean {
             }
 
             article {
-                padding-right: 2%;
+                margin: auto;
             }
 
             .describing-item-card {
@@ -465,6 +465,14 @@ nav.clean {
             
             .demo-website {
                 width: 100%;
+            }
+
+            .describing-item-visualisation {
+                width: 100%;
+            }
+
+            .describing-item-guidelines ul {
+                list-style: disc;
             }
 
 
