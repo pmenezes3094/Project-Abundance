@@ -71,6 +71,14 @@
             </div>
             <!--Live visualisation of cards-->
             <div class="describing-item-visualisation">
+                <!--This snippet is downloaded from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_cards and modified-->
+                <div class="card">
+                    <img src="../assets/demo-image.jpeg" alt="Flowers">
+                    <div class="container">
+                      <h4><b>Headline</b></h4> 
+                      <p>Decription</p> 
+                    </div>
+                </div>
             </div>
             <!--Design anatomy and code snippets for the cards-->
             <div class="describing-item-details">
@@ -84,7 +92,7 @@
                         <h4>Card Shadow</h4>
                         <p>None</p>
                         <h4>Card Border</h4>
-                        <p>#dfdfdf</p>
+                        <p>None</p>
                         <h4>Card Corners</h4>
                         <p>#5px</p>
                         <h4>Card outer padding</h4>
@@ -105,10 +113,39 @@
                     <h3>Development</h3>
                     <div class="design-details">
                         <h4>HTML</h4>
-                        <p>HTML Code</p>
+                        <p>
+<pre>
+    <code>
+        &ltdiv class="card"&gt
+            &ltimg src="../assets/demo-image.jpeg" alt="Flowers"&gt
+                &ltdiv class="container"&gt
+                &lth4>Headline&lt/h4&gt 
+            &ltp>Decription&lt/p&gt
+        &lt/div>
+        </div>
+    </code>
+</pre>
+                        </p>
 
                         <h4>CSS</h4>
-                        <p>CSS Code</p>
+                        <p>
+<code>
+    .card {
+        border-radius: 5px;
+        background-color: var(--colorlight);
+        text-align: center;
+      }
+    
+      .card img {
+        object-fit: cover;
+        padding: 2%;
+      }
+      .container {
+        padding: 2px 16px;
+      }
+</code>
+
+                        </p>
                     </div>
                 </span>
             </div>

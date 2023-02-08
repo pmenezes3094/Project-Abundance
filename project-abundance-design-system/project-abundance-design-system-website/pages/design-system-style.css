@@ -323,6 +323,22 @@ nav.clean {
   nav.clean .breadcrumb:before {
     color: var(--colorsecondary);
   }
+
+  /*This snippet is downloaded from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_cards and modfied*/
+
+  .card {
+    border-radius: 5px;
+    background-color: var(--colorlight);
+    text-align: center;
+  }
+
+  .card img {
+    object-fit: cover;
+    padding: 2%;
+  }
+  .container {
+    padding: 2px 16px;
+  }
 /*Responsive*/
 
 @media only screen and (max-width: 768px) 
