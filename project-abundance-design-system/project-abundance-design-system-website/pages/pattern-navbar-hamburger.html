@@ -64,23 +64,74 @@
             <!--Describing item title and description-->
             <div class="article-title">
                 <h1>Navbar / Hamburger Menu</h1>
-                <p>Navbar description</p>
+                <p>Group of links to navigate through the website</p>
             </div>
             <!--Design anatomy and code snippets for the describing item-->
             <div class="describing-item-card-group">
                 <!--Defining navbar details -->
+                <!--This code snippet is copied from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav and modified-->
                 <div class="category-card">
                     <h3>Navbar</h3>
                     <div class="describing-item-visualisation">
+                        <div class="topnav" id="myTopnav">
+                            <a href="#" class="active">Active Link</a>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
                     </div>
                     <div class="describing-item-card">
                         <h3>Development</h3>
                         <div class="design-details">
                             <h4>HTML</h4>
-                            <p>HTML Code</p>
+                            <p>
+<pre>
+    <code>
+        &ltdiv class="topnav" id="myTopnav"&gt
+            &lta href="#" class="active">Active Link&lt/a&gt
+            &lta href="#"&gtLink 1&lt/a&gt
+            &lta href="#"&gtLink 2&lt/a&gt
+            &lta href="#"&gtLink 3&lt/a&gt
+        &lt/div>
+    </code>
+</pre>
+                            </p>
 
                             <h4>CSS</h4>
-                            <p>CSS Code</p>
+                            <p>
+                                <code>
+                                    .topnav {
+                                        overflow: hidden;
+                                        background-color: var(--colorbackground);
+                                        border-radius: 5px;
+                                      }
+                                      
+                                      .topnav a {
+                                        float: left;
+                                        display: block;
+                                        color: var(--colorsecondary);
+                                        text-align: center;
+                                        padding: 14px 16px;
+                                        text-decoration: none;
+                                        font-size: 17px;
+                                      }
+                                      
+                                      .topnav a:hover {
+                                        background-color: var(--colorsecondary);
+                                        color: var(--colorlight);
+                                      }
+                                      
+                                      .topnav a.active {
+                                        background-color: var(--colorprimary);
+                                        color: var(--colorlight);
+                                      }
+                                      
+                                      .topnav .icon {
+                                        display: none;
+                                      }
+                                    
+                                </code>
+                            </p>
                             
                             <h4>JavaScript</h4>
                             <p>JavaScript Code</p> 
@@ -91,18 +142,102 @@
                 <div class="category-card">
                     <h3>Hamburger menu</h3>
                     <div class="describing-item-visualisation">
+                        <div class="describing-item-visualisation">
+                            <div class="hamnav" id="myhamnav">
+                                <a href="#" class="active">Active Link</a>
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                  <img src="../assets/icon-hamburger.png">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div class="describing-item-card">
                         <h3>Development</h3>
                         <div class="design-details">
                             <h4>HTML</h4>
-                            <p>HTML Code</p>
+                            <p>
+<pre>
+    <code>
+        &ltdiv class="hamnav" id="myhamnav"&gt
+            &lta href="#" class="active">Active Link&lt/a&gt
+            &lta href="#"&gtLink 1&lt/a&gt
+            &lta href="#"&gtLink 2&lt/a&gt
+            &lta href="#"&gtLink 3&lt/a&gt
+        &lt/div>
+    </code>
+</pre>
+                            </p>
 
                             <h4>CSS</h4>
-                            <p>CSS Code</p>
+                            <p>
+                                .hamnav {
+                                    overflow: hidden;
+                                    background-color: var(--colorbackground);
+                                    border-radius: 5px;
+                                  }
+                                  
+                                  .hamnav a {
+                                    float: left;
+                                    display: block;
+                                    color: var(--colorsecondary);
+                                    text-align: center;
+                                    padding: 14px 16px;
+                                    text-decoration: none;
+                                    font-size: 17px;
+                                  }
+                                  
+                                  .hamnav a:hover {
+                                    background-color: var(--colorsecondary);
+                                    color: var(--colorlight);
+                                  }
+                                  
+                                  .hamnav a.active {
+                                    background-color: var(--colorprimary);
+                                    color: var(--colorlight);
+                                  }
+                                  
+                                  .hamnav .icon {
+                                    display: none;
+                                  }
+                                
+                                
+                                    .hamnav a:not(:first-child) {display: none;}
+                                    .hamnav a.icon {
+                                      float: right;
+                                      display: block;
+                                    }
+                                
+                                
+                                    .hamnav.responsive {position: relative;}
+                                    .hamnav.responsive .icon {
+                                      position: absolute;
+                                      right: 0;
+                                      top: 0;
+                                    }
+                                    
+                                    .hamnav.responsive a {
+                                      float: none;
+                                      display: block;
+                                      text-align: left;
+                                    }
+                            </p>
                             
                             <h4>JavaScript</h4>
-                            <p>JavaScript Code</p> 
+                            <p>
+                                <code>
+                                    function myFunction() {
+                                        var x = document.getElementById("myTopnav");
+                                        if (x.className === "topnav") {
+                                          x.className += " responsive";
+                                        } else {
+                                          x.className = "topnav";
+                                        }
+                                      }
+                                </code>
+                            </p> 
                         </div>
                     </div>
                 </div>

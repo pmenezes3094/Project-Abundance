@@ -309,6 +309,93 @@ textarea {
     border: var(--outline); 
 }
 
+/*Navbar styles*/
+/*This code is copied from ___ and modified*/
+
+.topnav {
+    overflow: hidden;
+    background-color: var(--colorbackground);
+    border-radius: 5px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: var(--colorsecondary);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: var(--colorsecondary);
+    color: var(--colorlight);
+  }
+  
+  .topnav a.active {
+    background-color: var(--colorprimary);
+    color: var(--colorlight);
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+  /**/
+
+  .hamnav {
+    overflow: hidden;
+    background-color: var(--colorbackground);
+    border-radius: 5px;
+  }
+  
+  .hamnav a {
+    float: left;
+    display: block;
+    color: var(--colorsecondary);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .hamnav a:hover {
+    background-color: var(--colorsecondary);
+    color: var(--colorlight);
+  }
+  
+  .hamnav a.active {
+    background-color: var(--colorprimary);
+    color: var(--colorlight);
+  }
+  
+  .hamnav .icon {
+    display: none;
+  }
+
+
+    .hamnav a:not(:first-child) {display: none;}
+    .hamnav a.icon {
+      float: right;
+      display: block;
+    }
+
+
+    .hamnav.responsive {position: relative;}
+    .hamnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    .hamnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+
 
 
 /*This code snippet downloaded from CodeHim, https://www.codehim.com*/
