@@ -167,3 +167,13 @@ nav ul {
 img {
     border-radius: 5px;
 }
+
+header{
+    margin-left: 7.1%;
+}
+
+header svg {
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+}
