@@ -113,3 +113,18 @@ body {
     margin-bottom: 40px;
     margin-left: 3.73%;
 }
+
+.introduction {
+    background-color: #F2F8FF;
+    border-radius: 20px;
+    margin-left: 3.73%;
+    margin-right: 3.73%;
+    position: relative;
+    margin-top: 650px;
+}
+
+.introduction_content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 8.46%;
+}
