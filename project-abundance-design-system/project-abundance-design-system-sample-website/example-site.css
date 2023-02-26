@@ -116,7 +116,7 @@ body {
 
 .introduction {
     background-color: var(--colorlightestgrey);
-    border-radius: 20px;
+    border-radius: 5px;
     margin-left: 3.73%;
     margin-right: 3.73%;
     position: relative;
@@ -127,4 +127,23 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 8.46%;
+}
+
+nav {
+    margin-left: 7.39%;
+    margin-right: 7.39%;
+    margin-bottom: 40px;
+    background-color: var(--colorbackground);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4.89%;
+    padding-right: 4.89%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
