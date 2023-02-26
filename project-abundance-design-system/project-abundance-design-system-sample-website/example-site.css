@@ -1,0 +1,115 @@
+span, h1, h2, h3, h4, h5, h6, dt, a, button, .button-copy, .list-group-heading, .link-copy{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 1.46%;
+    padding-right: 1.46%;
+    text-decoration: none;
+}
+
+p, li, figcaption, dd, .body-copy-1, pre , .body-copy-2, .caption-copy, .list-group-item{
+    font-family: 'Crimson Pro', serif;
+    margin: 0%;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1.46%;
+    padding-right: 1.46%;
+}
+
+h1, h2, h3 {
+    color: var(--colorprimary);
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 50px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h5, .list-group-heading, dt {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+a, button, .button-copy, .link-copy{
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p, li, dd, .body-copy-1, pre , .list-group-item {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+figcaption, .body-copy-2, .caption-copy {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+:any-link{
+    color: var(--colorsecondary);
+}
+
+.nav-item-selected a{
+    color: var(--colorprimary);
+    font-weight: 800;
+}
+
+/*Colour theme*/
+:root {
+    --colorprimary:#805A93;
+    --colorsecondary:#FB5897;
+    --colortertiary:#F6C0B4;
+    --colordarkgrey:#222222;
+    --colormediumgrey:#444444;
+    --colorlightgrey:#666666;
+    --colorlightestgrey:#cccccc;
+    --colorbackground:#F7F1FF;
+    --colorcards: #F9F9F9;
+    --colorlight:#ffffff;
+    --colorfaliure:#ce7b91;
+    --colorsuccess:#87d68d;
+    --colorinfo: #6c91bf;
+    --colorreminder:#fcca46;
+    --outline: 1px solid #dfdfdf;
+}
+
+/*Styling the body*/
+body {
+    margin: 0%;
+}
+
+/*Styling the header*/
+
+.logo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 3.73%;
+}
