@@ -115,7 +115,7 @@ body {
 }
 
 .introduction {
-    background-color: #F2F8FF;
+    background-color: var(--colorlightestgrey);
     border-radius: 20px;
     margin-left: 3.73%;
     margin-right: 3.73%;
