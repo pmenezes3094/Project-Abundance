@@ -179,3 +179,11 @@ header svg {
     z-index: 1;
     margin: auto;
 }
+
+.footer-content {
+    padding-left: 12.19%;
+    padding-right: 12.19%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--colorbackground);
+}
