@@ -147,3 +147,23 @@ nav ul {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.project_thumbnails {
+    margin-left: 11.63%;
+    margin-right: 11.63%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.46%;
+}
+
+.card {
+    max-width: 37.6%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 5px;
+}
