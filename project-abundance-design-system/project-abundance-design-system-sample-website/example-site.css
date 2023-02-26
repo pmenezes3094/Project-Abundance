@@ -121,11 +121,9 @@ body {
     margin-right: 3.73%;
     position: relative;
     margin-top: 650px;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
-.introduction_content{
+.introduction-content{
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 8.46%;
@@ -150,7 +148,7 @@ nav ul {
     padding-bottom: 30px;
 }
 
-.project_thumbnails {
+.project-thumbnails {
     margin-left: 11.63%;
     margin-right: 11.63%;
     display: flex;
@@ -166,7 +164,7 @@ nav ul {
     margin-bottom: 20px;
 }
 
-img {
+.card img {
     border-radius: 5px;
 }
 
