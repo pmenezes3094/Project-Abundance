@@ -93,6 +93,7 @@ figcaption, .body-copy-2, .caption-copy {
     --colorlightgrey:#666666;
     --colorlightestgrey:#cccccc;
     --colorbackground:#F7F1FF;
+    --colorbackgroundtertiary: #FBE1DC;
     --colorcards: #F9F9F9;
     --colorlight:#ffffff;
     --colorfaliure:#ce7b91;
@@ -280,7 +281,7 @@ input:where([type="checkbox"], [type="radio"]) {
   appearance: none;
   width: 16px;
   height: 16px;
-  border: var(--outline);
+  border: var(--colorsecondary);
   margin-right: 5px;
 }
 
@@ -304,7 +305,7 @@ option:checked {
 select, input[type="text"] {
     width: 50%;
     height: 30px;
-    border: var(--outline);
+    border: var(--colorsecondary);
 }
 
 textarea {
@@ -420,9 +421,11 @@ nav.clean {
     border-radius: 5px;
     background-color: var(--colorlight);
     text-align: center;
+    width:30%;
   }
 
   .card img {
+    border-radius: 5px;
     object-fit: cover;
     padding: 2%;
   }
