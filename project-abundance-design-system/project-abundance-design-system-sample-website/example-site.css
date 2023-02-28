@@ -115,12 +115,13 @@ body {
 }
 
 .introduction {
-    background-color: var(--colorlightestgrey);
+    background-color: var(--colorbackground);
     border-radius: 5px;
     margin-left: 3.73%;
     margin-right: 3.73%;
     position: relative;
     margin-top: 650px;
+    border: #DACAF1 1px solid;
 }
 
 .introduction-content{
@@ -311,7 +312,28 @@ form {
     margin: auto;
 }
 
+.h1-thin {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    line-height: 80px;
+    color: var(--colormediumgrey);
+}
 
+.h1-decoration {
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    line-height: 80px;
+    color: var(--colormediumgrey);
+}
+
+.h1-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 80px;
+    color: var(--colormediumgrey);
+}
 
   .card img {
     object-fit: cover;
@@ -323,5 +345,5 @@ form {
     padding-right: 12.19%;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: var(--colorbackground);
+    background-color: var(--colortertiary);
 }
