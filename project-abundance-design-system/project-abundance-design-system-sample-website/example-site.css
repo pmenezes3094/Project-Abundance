@@ -178,6 +178,45 @@ header{
     margin: auto;
 }
 
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+.pagination > a, .pagination > span {
+	background-color: var(--colorlight);
+    border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+	margin: 0 3px 5px;
+	min-width: 20px;
+	height: 40px;
+	text-decoration: none;
+	position: relative;
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 1px 10px;
+}
+.pagination > span {
+	pointer-events: none;
+}
+.pagination svg {
+	height: 24px;
+	width: 24px;
+}
+.pagination > a:hover {
+	background-color: var(--colorsecondary);
+	color: var(--colorlight);
+}
+.pagination > a.page-active {
+	background-color: var(--colorprimary);
+	color: var(--colorlight);
+}
+
 .footer-content {
     padding-left: 12.19%;
     padding-right: 12.19%;
