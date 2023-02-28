@@ -162,6 +162,11 @@ nav ul {
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 20px;
+
+    border-radius: 5px;
+    background-color: var(--colorbackground);
+    text-align: center;
+    width: 30%;
 }
 
 .card img {
@@ -305,6 +310,13 @@ form {
     min-width: 200px;
     margin: auto;
 }
+
+
+
+  .card img {
+    object-fit: cover;
+    padding: 2%;
+  }
 
 .footer-content {
     padding-left: 12.19%;
