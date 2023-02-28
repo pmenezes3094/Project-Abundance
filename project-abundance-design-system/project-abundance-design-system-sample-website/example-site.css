@@ -247,6 +247,65 @@ header{
     display: none;
   }
 
+  input:where([type="checkbox"], [type="radio"]) {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: var(--outline);
+    margin-right: 5px;
+  }
+  
+  input[type="radio"] {
+      border-radius: 50%;
+  }
+  
+  input[type="checkbox"], select, textarea, input[type="text"] {
+      border-radius: 5px;
+  }
+  
+  input:checked {
+    border: 6px solid var(--colorsecondary);
+  }
+  
+  option:checked {
+      color: var(--colorlight);
+      background-color: var(--colorsecondary);
+  }
+  
+  select, input[type="text"] {
+      width: 50%;
+      height: 30px;
+      border: var(--outline);
+  }
+  
+  textarea {
+      width: 50%;
+      height: 80px;
+      border: var(--outline); 
+  }
+
+  .enquiry_form_section form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+button {
+    background-color: var(--colorsecondary);
+    border: none;
+    border-radius: 50px;
+    color: var(--colorlight);
+    margin: 20px;
+    width: 20%;
+}
+
+
+form {
+    width: 80%;
+    min-width: 200px;
+    margin: auto;
+}
+
 .footer-content {
     padding-left: 12.19%;
     padding-right: 12.19%;
