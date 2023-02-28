@@ -172,7 +172,7 @@ header{
     margin-left: 7.1%;
 }
 
-header svg {
+.landing-section img{
     position: absolute;
     z-index: 1;
     margin: auto;
