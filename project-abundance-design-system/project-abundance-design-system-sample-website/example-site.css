@@ -217,6 +217,36 @@ header{
 	color: var(--colorlight);
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: var(--colorbackground);
+    border-radius: 5px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: var(--colorsecondary);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: var(--colorsecondary);
+    color: var(--colorlight);
+  }
+  
+  .topnav a.active {
+    background-color: var(--colorprimary);
+    color: var(--colorlight);
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
 .footer-content {
     padding-left: 12.19%;
     padding-right: 12.19%;
