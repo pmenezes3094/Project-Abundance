@@ -260,7 +260,7 @@ header{
     appearance: none;
     width: 16px;
     height: 16px;
-    border: var(--outline);
+    border: solid 2px var(--colorsecondary);
     margin-right: 5px;
   }
   
