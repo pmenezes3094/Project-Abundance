@@ -435,6 +435,31 @@ nav.clean {
   .navigation {
     background-color: var(--colorbackground);
   }
+
+  /*Typography table*/
+
+  .typography {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .typography td, .typography th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .typography tr:nth-child(odd){background-color: var(--colorlightestgrey);}
+  
+  .typography tr:hover {background-color: var(--colorsecondary);}
+  
+  .typography th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--colorprimary);
+    color: white;
+  }
 /*Responsive*/
 
 @media only screen and (max-width: 768px) 
