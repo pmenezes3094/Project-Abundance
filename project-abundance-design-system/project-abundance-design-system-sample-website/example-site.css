@@ -431,7 +431,8 @@ figcaption {
 @media only screen and (max-width: 768px) 
         {   
             .landing-section img {
-                max-width: 99%;
+                max-width: 80%;
+                margin: auto;
             }
 
             .about_information {
