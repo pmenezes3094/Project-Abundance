@@ -156,8 +156,11 @@ nav ul {
     margin-right: 11.63%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.46%;
+
+        justify-content: space-between;
+        gap: 20px;
+        margin: auto;
+        justify-content: center;
 }
 
 .card {
@@ -305,7 +308,7 @@ button {
     border-radius: 50px;
     color: var(--colorlight);
     margin: 20px;
-    width: 20%;
+    width: 100px;
 }
 
 
@@ -425,6 +428,21 @@ figcaption {
     padding-bottom: 50px;
 }
 
+@media only screen and (max-width: 768px) 
+        {   
+            .landing-section img {
+                max-width: 99%;
+            }
+
+            .about_information {
+                flex-direction: column;
+            }
+
+            .introduction {
+                margin-top: 250px;
+            }
+
+        }
 
 
 
