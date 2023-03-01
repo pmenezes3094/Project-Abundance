@@ -358,4 +358,56 @@ form {
     background-color: var(--colortertiary);
 }
 
+.about-me {
+    background-color: var(--colorbackground);
+}
+
+.about_information {
+    display:flex;
+}
+
+.designer_info h5{
+    margin: 0px;
+}
+
+.designer_info p{
+    margin: 0px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+/*architect info*/
+figure {
+    margin: 0px;
+}
+
+figcaption {
+    padding-top: 30px;
+}
+
+.designer-detail {
+    padding-left: 3.7%;
+    padding-right: 4.64%;
+    padding-top: 50px;
+}
+
+.designer-detail p{
+    font-size: 20px;
+}
+
+.designer-detail p em{
+    font-size: 16px;
+}
+
+/*agency info*/
+.designer-detail {
+    padding-right: 3.7%;
+    padding-left: 4.64%;
+    padding-top: 50px;
+}
+
+.designer-detail p{
+    padding-bottom: 50px;
+}
+
 
