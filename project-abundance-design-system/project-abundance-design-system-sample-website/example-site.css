@@ -358,6 +358,14 @@ form {
     background-color: var(--colortertiary);
 }
 
+footer .h1-thin{
+    text-align: center;
+}
+
+footer form {
+    text-align: center;
+}
+
 .about-me {
     background-color: var(--colorbackground);
     padding-left: 3.73%;;
@@ -416,5 +424,7 @@ figcaption {
 .designer-detail p{
     padding-bottom: 50px;
 }
+
+
 
 
