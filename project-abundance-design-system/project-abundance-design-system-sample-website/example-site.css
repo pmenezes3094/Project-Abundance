@@ -9,7 +9,7 @@ span, h1, h2, h3, h4, h5, h6, dt, a, button, .button-copy, .list-group-heading, 
     text-decoration: none;
 }
 
-p, li, figcaption, dd, .body-copy-1, pre , .body-copy-2, .caption-copy, .list-group-item{
+p, li, figcaption, dd, .body-copy-1, pre , .body-copy-2, .caption-copy, .list-group-item, label{
     font-family: 'Crimson Pro', serif;
     margin: 0%;
 
