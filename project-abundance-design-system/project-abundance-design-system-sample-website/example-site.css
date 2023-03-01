@@ -360,10 +360,17 @@ form {
 
 .about-me {
     background-color: var(--colorbackground);
+    padding-left: 3.73%;;
+    padding-right: 3.73%;;
 }
 
 .about_information {
     display:flex;
+}
+
+.about-me h2 {
+    padding-bottom: 40px;
+    text-align: center;
 }
 
 .designer_info h5{
