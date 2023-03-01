@@ -462,6 +462,10 @@ nav.clean {
     color: white;
   }
 
+  .icons img{
+    padding: 50px;
+  }
+
 /*Responsive*/
 
 @media only screen and (max-width: 768px) 
