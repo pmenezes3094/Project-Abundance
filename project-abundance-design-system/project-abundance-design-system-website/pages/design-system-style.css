@@ -460,12 +460,17 @@ nav.clean {
     background-color: var(--colorprimary);
     color: white;
   }
+
 /*Responsive*/
 
 @media only screen and (max-width: 768px) 
         {
             .responsive-show {
                 display: contents;
+            }
+
+            .reponsive-hide {
+                display: none;
             }
             header {
                 justify-content: space-evenly;
