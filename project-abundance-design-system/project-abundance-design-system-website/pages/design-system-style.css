@@ -107,6 +107,10 @@ body {
     margin: 0%;
 }
 
+code {
+    margin: 1%;
+}
+
 /*Styling the header*/
 
 .logo {
@@ -489,7 +493,7 @@ nav.clean {
             }
 
             .describing-item-card {
-                width: 100%;
+                width: 90%;
             }
 
             .category-card {
@@ -510,6 +514,11 @@ nav.clean {
 
             .describing-item-guidelines ul {
                 list-style: disc;
+            }
+
+            code {
+                display: block;
+                white-space: pre-wrap;
             }
 
 
