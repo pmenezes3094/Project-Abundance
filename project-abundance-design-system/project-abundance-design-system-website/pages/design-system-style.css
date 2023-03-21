@@ -482,7 +482,11 @@ nav.clean {
                 display: none;
             }
             header {
-                justify-content: space-evenly;
+                justify-content: space-between;
+            }
+
+            header img {
+                padding-left: 5.7%;
             }
             nav {
                 display: none;
