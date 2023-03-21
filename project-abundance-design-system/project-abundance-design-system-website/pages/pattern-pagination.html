@@ -79,7 +79,7 @@
                     <a href="#">1</a>
                     <a href="#" class="page-active">2</a>
                     <a href="#">3</a>
-                    <span class="page-dots">...</span>
+                    <div class="page-dots">...</div>
                     <a href="#">6</a>
                     <a href="#" title="next page">Next</a>
                 </div>
@@ -97,7 +97,7 @@
                                 &lta href="#"&gt1&lt/a&gt
                                 &lta href="#" class="page-active"&gt2&lt/a&gt
                                 &lta href="#">3&lt/a&gt
-                                &ltspan class="page-dots"&gt...&lt/span&gt
+                                &ltdiv class="page-dots"&gt...&lt/div&gt
                                 &lta href="#"&gt6&lt/a&gt
                                 &lta href="#" title="next page"&gtNext&lt/a&gt
                             &lt/div&gt
@@ -113,7 +113,7 @@
                                     align-items: center;
                                     flex-wrap: wrap;
                                 }
-                                .pagination > a, .pagination > span {
+                                .pagination > a, .pagination > div {
                                     background-color: var(--colorlight);
                                     border-radius: 5px;
                                     display: flex;
@@ -128,7 +128,7 @@
                                     font-family: Helvetica, Arial, sans-serif;
                                     padding: 1px 10px;
                                 }
-                                .pagination > span {
+                                .pagination > div {
                                     pointer-events: none;
                                 }
                                 .pagination svg {
