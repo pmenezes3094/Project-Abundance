@@ -88,18 +88,26 @@ figcaption, .body-copy-2, .caption-copy {
     --colorprimary:#805A93;
     --colorsecondary:#FB5897;
     --colortertiary:#F6C0B4;
+    --colorbackground:#F7F1FF;
+    --colorlight:#ffffff;
     --colordarkgrey:#222222;
     --colormediumgrey:#444444;
     --colorlightgrey:#666666;
     --colorlightestgrey:#cccccc;
-    --colorbackground:#F7F1FF;
     --colorcards: #F9F9F9;
-    --colorlight:#ffffff;
     --colorfaliure:#ce7b91;
     --colorsuccess:#87d68d;
     --colorinfo: #6c91bf;
     --colorreminder:#fcca46;
     --outline: 1px solid #dfdfdf;
+
+    /* --colorprimary:#935A93;
+    --colorsecondary:#89376D;
+    --colortertiary:#F6C0B4;
+    --colorbackground:#FFF3F7;
+    --colorlight:#ffffff; */
+
+
 }
 
 /*Styling the body*/
