@@ -73,18 +73,23 @@
             </div>
             <!--Live visualisation of cards-->
             <div class="describing-item-visualisation">
-                <!--This snippet is downloaded from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_cards and modified-->
-                <div class="card">
-                    <img src="../assets/demo-image.jpeg" alt="Flowers" style="width:30%;">
-                    <div class="container">
-                      <h4><b>Headline</b></h4> 
-                      <p>Decription</p> 
+                <!--This snippet is downloaded from https://codepen.io/JanneLeppanen/pen/EMRrOX and modified-->
+                <div class="container">
+                    <div class="card">
+                       <div class="card__image-container">
+                         <img class="card__image" src="../assets/demo-image.jpeg" alt="">
+                      </div>
+                      
+                       <div class="card__content">
+                         <h5 class="card__title">Title</h5>
+                       <p>Date</p>
+                      </div>
                     </div>
-                </div>
+                  </div>
             </div>
             <!--Design anatomy and code snippets for the cards-->
             <div class="describing-item-details">
-                <span class="describing-item-card">
+                <div class="describing-item-card">
                     <h3>Design</h3>
                     <div class="design-details">
                         <h4>Card Width*Height</h4>
@@ -110,8 +115,8 @@
                         <h4>Card image padding</h4>
                         <p>2%</p>                  
                     </div>
-                </span>
-                <span class="describing-item-card">
+                </div>
+                <div class="describing-item-card">
                     <h3>Development</h3>
                     <div class="design-details">
                         <h4>HTML</h4>
@@ -147,7 +152,7 @@
 
                         </p>
                     </div>
-                </span>
+                </div>
             </div>
             <!--Guidelines to follow while implementing cards-->
             <div class="describing-item-guidelines">
