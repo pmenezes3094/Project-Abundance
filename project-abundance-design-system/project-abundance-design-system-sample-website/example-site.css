@@ -437,6 +437,10 @@ figcaption {
     left: 0;
     top: 115px;
 }
+
+.card__image {
+    max-width: 600px;
+}
 @keyframes LineFadeIn {
     0% {
         opacity: 0;
