@@ -355,11 +355,12 @@ footer form {
 
 .about_information {
     display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about-me h2 {
     padding-bottom: 40px;
-    text-align: center;
 }
 
 .designer_info h5{
@@ -378,7 +379,8 @@ figure {
 }
 
 figcaption {
-    padding-top: 30px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .designer-detail {
@@ -488,15 +490,13 @@ figcaption {
    }
 }
 
+
+
 @media only screen and (max-width: 768px) 
         {   
             .landing-section img {
                 max-width: 80%;
                 margin: auto;
-            }
-
-            .about_information {
-                flex-direction: column;
             }
 
             .introduction {
