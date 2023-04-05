@@ -83,6 +83,10 @@ figcaption, .body-copy-2, .caption-copy {
     font-weight: 800;
 }
 
+a {
+    text-decoration: underline;
+}
+
 /*Colour theme*/
 :root {
     /* --colorprimary:#805A93;
