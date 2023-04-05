@@ -84,16 +84,24 @@ figcaption, .body-copy-2, .caption-copy {
 
 /*Colour theme*/
 :root {
+
     --colorprimary:#805A93;
+    --colorsecondary:#CB167E;
+    --colortertiary:#FFE8E3;
+    --colorbackground:#F9ECFF;
+    --colorlight:#ffffff;
+
+    /* --colorprimary:#805A93;
     --colorsecondary:#FB5897;
     --colortertiary:#F6C0B4;
+    --colorbackground:#F7F1FF;
+    --colorlight:#ffffff; */
+   
     --colordarkgrey:#222222;
     --colormediumgrey:#444444;
     --colorlightgrey:#666666;
     --colorlightestgrey:#cccccc;
-    --colorbackground:#F7F1FF;
     --colorcards: #F9F9F9;
-    --colorlight:#ffffff;
     --colorfaliure:#ce7b91;
     --colorsuccess:#87d68d;
     --colorinfo: #6c91bf;
